@@ -1,0 +1,118 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+html { 
+    scroll-behavior:smooth;
+}
+
+body {
+    text-align:center;
+    margin:0px;
+    padding:0px
+    
+}
+
+#about {
+    background-color:whitesmoke;
+    height:300px
+}
+
+#projects {
+    background-color:white;
+    height:500px;
+    text-align: center;
+}
+
+#skills {    
+    height:300px;
+    background-color:whitesmoke;
+}
+
+.skill_imgs {
+    display: inline-block;
+}
+
+#skills img:hover {
+    opacity:.5;
+    height:90px;
+    width:90px;
+    transition: height .3s ease;
+    
+}
+
+section {
+    padding: 8rem 2rem;
+    min-height: 80vh; /* Reduce the default minimum height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+h1 {
+    text-align:left;
+    height:70px
+}
+
+/* this is where the design for the navigation bar starts */
+nav {
+    background-color:#333131;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.125rem;
+    height: 4rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow:hidden
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+}
+
+.navbar a:hover {
+    opacity:.5
+}
+/* this is where the code for the navigation bar ends */
+
+#face {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+ align-items: left;
+ display:inline-flex
+}
+
+.socials {
+    display:flex;
+    justify-content: space-between;
+    gap: 15px ;
+    margin:0px;
+    font-size:35px;
+    color:black;
+}
+
+.socials i:hover {
+    opacity:.5;
+}
+
+p {
+    margin:0px;
+
+}
+
