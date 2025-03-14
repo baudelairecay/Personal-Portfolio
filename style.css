@@ -3,17 +3,29 @@
     padding:0px;
     box-sizing: border-box;
     font-family: "Lucida Console", "Courier New", monospace;
+    
 }
 
 html { 
     scroll-behavior:smooth;
+    
 }
 
 body {
     text-align:center;
     margin:0px;
-    padding:0px
+    padding:0px;
     
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+div > button{
+    top:0
 }
 
 #about {
@@ -40,12 +52,13 @@ body {
     opacity:.5;
     height:90px;
     width:90px;
-    transition: height .3s ease;
+    transition: height .3s ease-in;
+    transition: width .324s ease-in;
     
 }
 
 section {
-    padding: 8rem 2rem;
+    padding:70px;
     min-height: 80vh; /* Reduce the default minimum height */
     display: flex;
     flex-direction: column;
@@ -54,6 +67,7 @@ section {
     gap: 2rem;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    justify-content: center;
 }
 
 
@@ -79,7 +93,6 @@ nav {
 
 .navbar a {
     color:white;
-    text-decoration: none;
     overflow:hidden;
     margin:0px;
     padding:0px;
@@ -94,25 +107,33 @@ nav {
   border-radius: 50%;
   width: 200px;
   height: 200px; 
- align-items: left;
- display:inline-flex
+  align-items: left;
+  display:inline-flex
 }
-
+ 
 .socials {
     display:flex;
     justify-content: space-between;
-    gap: 15px ;
+    gap: 25px ;
     margin:0px;
-    font-size:35px;
+    font-size:40px;
     color:black;
 }
 
 .socials i:hover {
     opacity:.5;
+    font-size:42px;
+    transition: font-size .3s ease;
+
 }
 
-p {
-    margin:0px;
+#projects p {
+    font-size:15px;
+}
 
+.mechanical {
+    border:#333131;
+    border-width:5px;
+    border-style:solid
 }
 
